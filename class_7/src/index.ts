@@ -6,4 +6,4 @@ class User {
     this.name = name;
   }
 }
-const u11 = new User("abc@def.com", "abc");
+const u1 = new User("abc@def.com", "abc");
