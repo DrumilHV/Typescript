@@ -72,3 +72,24 @@ user1._id = "12345";
 
 2. <span style="color:red">**If readonly was an array , I can still push new things in the array** !!</span>
 3.
+
+## Arrays
+
+1. When we make an `const SuperHeros = []` it is default assigned to type `never`, and we can push anything into it . If anythng is never type you can't modify it not even push an element into it.
+2. If we do `const SuperHeros : [] = []` you are assiginig an empty array to an array type and it shall always remain empty , so again you can't push anything to it.
+3. correct way to do so is `const SuperHeros: string[] = []` and then you can do all your operations.
+4. Also another way is
+
+```ts
+const SuperHeros: Array<numbers> = [];
+```
+
+5. We can define array of arrays.
+
+```ts
+const MachineLearningModel[][] = [
+  [0,1,1,1,1,0,0],
+  [],
+  ...
+]
+```
