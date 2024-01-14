@@ -18,7 +18,7 @@ function addThree(num: number) {
 }
 ```
 
-2. If I don't return any thing from a function I neet to put a void type to prevert me from accidentally returning a value
+2. If I don't return any thing from a function we need to put a void type to prevert me from accidentally returning a value
 
 ```ts
 function consoleErrMessage(errMsg): void {

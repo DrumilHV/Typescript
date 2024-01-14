@@ -8,3 +8,4 @@
 6. You will see an error message before seeing the output file , but the file will still be transpiled.
 7. `tsc <command>` is like `gcc <command>` you can tell typescript to so do some actions like `tsc --version`.
 8. You can add your preferences in tsconfig file.
+   v

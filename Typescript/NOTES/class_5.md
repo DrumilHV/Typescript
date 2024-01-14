@@ -84,7 +84,7 @@ enum SeatChoise {
   MIDDLE = "middle",
   WINDOW = "window",
 }
-// if you assign string value then you have to provide values to all of them , but if you assign a number value the subsecuent values are assigned by ts
+// if you assign string value then you have to provide values to all of them , but if you assign a number value the subsequent values are assigned by ts
 enum SeatChoise {
   AIELS = "ailes",
   MIDDLE = 1,
