@@ -53,3 +53,4 @@
 4.  Remix also has some built in optimizations for client-side navigation. It knows which layouts will persist between the two URLs, so it only fetches the data for the ones that are changing.
 
 5.  Remix can also prefetch all resources for a page when the user is about to click a link. The browser framework knows about the compiler's asset manifest. It can match the URL of the link, read the manifest, and then prefetch all data, JavaScript modules, and even CSS resources for the next page. This is how Remix apps feel fast even when networks are slow.
+6.
